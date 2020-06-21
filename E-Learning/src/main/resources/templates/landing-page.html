@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html  xmlns:th="http://thymeleaf.org">
+<head>
+	
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <div th:replace="fragments/boot-dependency :: bootstrapcss"></div>
+    	
+	
+	<title>Welcome to E-Learning</title>
+</head>
+
+<body >
+	
+	<div th:style="'background-image:url(' + @{/images/landingbg.jpg} + ');'">
+	
+	<!-- th replace -->
+	<div th:replace="fragments/navigation :: navbar"></div>
+	
+	<div class="container " id="loginForm" >
+		
+	
+	
+	</div>
+	
+	<div th:replace="fragments/boot-dependency :: bootstrapjs"></div>
+	
+	</div>
+</body>
+</html>
